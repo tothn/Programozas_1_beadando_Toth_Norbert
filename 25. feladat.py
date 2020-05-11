@@ -2,7 +2,7 @@ import numpy as np
 
 a=int(input("matrix sorainak szama: "))
 b=int(input("matrix oszlopainak szama: "))
-m=np.random.randint(0,201,(a,b))
+m=np.random.randint(0,9,(a,b))
 def matrix_sorted_or_not(m):
     db = 0
     for i in range(m.shape[0]):
